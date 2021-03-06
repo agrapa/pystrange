@@ -20,13 +20,7 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'foo.pie'; 'foo' is not a package
 
 
-ariegrapa@16inchArieMacBookPro [18:48:08] [~/dev/pystrange] [main *]
-
-
 -> % mv foo/foo.py foo/foo2.py
-
-
-ariegrapa@16inchArieMacBookPro [18:48:16] [~/dev/pystrange] [main *]
 
 
 -> % foo/bar.py
