@@ -2,4 +2,4 @@
 from foo.pie import add
 
 if __name__ == "__main__":
-    fun()
+    add()
