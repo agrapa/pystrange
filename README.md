@@ -15,7 +15,7 @@ My results:
 Traceback (most recent call last):
   File "foo/bar.py", line 2, in <module>
     from foo.pie import add
-  File "/Users/ariegrapa/dev/pystrange/foo/foo.py", line 1, in <module>
+  File "~/dev/pystrange/foo/foo.py", line 1, in <module>
     from foo.pie import add
 ModuleNotFoundError: No module named 'foo.pie'; 'foo' is not a package
 
