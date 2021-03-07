@@ -1,36 +1,14 @@
-try to run via foo/bar.py from the command line
+Experiment 1: try to run as is from the root directory by typing "foo/bar.py" from the command line. You get an error.
 
-now try:
+Experiment 2:
 
 mv foo/foo.py foo/foo2.py
 
-try again
+try "foo/bar.py" again
 
+Experiment 3:
 
-My results:
+rename foo/foo2.py back to its original name: "mv foo/foo.py foo/foo2.py"
 
--> % foo/bar.py
-
-
-Traceback (most recent call last):
-  File "foo/bar.py", line 2, in <module>
-    from foo.pie import add
-  File "~/dev/pystrange/foo/foo.py", line 1, in <module>
-    from foo.pie import add
-ModuleNotFoundError: No module named 'foo.pie'; 'foo' is not a package
-
-
--> % mv foo/foo.py foo/foo2.py
-
-
--> % foo/bar.py
-
-
-adding
-
-rename foo/foo2.py back to its original name
-
--> % mv foo/foo.py foo/foo2.py
-
-now uncomment lines 2&3 from foo/bar.py and try again
+now uncomment lines 2&3 from foo/bar.py and try again "foo/bar.py"
 
